@@ -1,0 +1,273 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+header img {
+  height: 200px;
+  width: 200px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 18px;
+}
+
+header h1 {
+  background-color: lightcyan;
+  background: linear-gradient(to right, #1c87c9 76%, #000000 24%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  margin-top: 15px;
+}
+
+#navbarItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.navItem {
+  border: solid black;
+  background-color: #1c87c9;
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  border-radius: 3px;
+}
+
+a:link, a:visited, a:hover {
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: block;
+  text-decoration: none;
+}
+
+#aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+
+#lakePic {
+  width:90%;
+  height: auto;
+  border-radius: 8px;
+}
+
+#description {
+  width: 90%;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.products p {
+  margin-top: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.products h4 {
+  margin-bottom: 2px;
+  margin-top: 10px;
+}
+
+.boat {
+  width: 90%;
+  height: 90%;
+  border-radius: 8px;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #1c87c9;
+}
+
+#wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(185, 185, 185);
+  border-radius: 7px;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 10px;
+}
+
+.headings {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.headings2 {
+  margin-bottom: 4px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#renting {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 5px;
+  align-content: center;
+  margin-bottom: 15px;
+}
+
+#input1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: block;
+  margin-bottom: 15px;
+  margin-top: 2px;
+  height: 30px;
+  width: 120px;
+  border: white solid 2px;
+  border-radius: 5px;
+}
+
+#wrap2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(185, 185, 185);
+  border-radius: 7px;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 10px;
+  margin-top: 1em;
+}
+
+#questions {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 5px;
+  align-content: center;
+  margin-bottom: 15px;
+}
+
+#input2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: block;
+  margin-bottom: 15px;
+  margin-top: 2px;
+  height: 30px;
+  width: 120px;
+  border: white solid 2px;
+  border-radius: 5px;
+}
+
+footer {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+
+  body {
+    background-color: blanchedalmond;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  #navbarItems {
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .navItem {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  #grid {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  body {
+    background-color: white;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+
+  #navbarItems {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .products {
+    width:50%;
+  }
+
+  .navItem {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  #grid {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-wrap: wrap;
+  }
+
+  .headings {
+    font-size: 70px;
+    margin-bottom: 40px;
+  }
+
+  aside {
+    order: 1;
+    margin-top: 129px;
+    margin-right: 105px;
+  }
+
+  #combo {
+    display: flex;
+  }
+
+  #buttons {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+  }
+
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+#wrap1 {
+  padding-left: 2%;
+  display: flex;
+  align-content: center;
+  justify-content: left;
+}
+
+#name {
+  padding-left: 1.75%;
+  padding-top: 1%;
+}
+
+#jumbotron {
+  background-image: url(images/monterey.jpg);
+  height: 450px;
+  width: 100%;
+  background-position: center;
+  color: white;
+  text-shadow: black 3px 3px;
+}
+
+#jumbotron p, #jumbotron h1 {
+  padding-left: 20px;
+}
+
+.row {
+  text-align: center;
+}
+
+.card-img-top {
+  width: 100%!important;
+  height: 200px!important;
+  object-fit: cover;
+}

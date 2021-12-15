@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+#name {
+  padding-left: 1.75%;
+  padding-top: 1%;
+}
+
+#jumbotron {
+  color: white;
+  background-image: url("images/lakePano.jpg");
+  background-position: center;
+  height: 450px;
+  width: 100%;
+  font-family: 'Playfair Display', serif;
+}
+
+#jumbotron h1, #jumbotron p {
+  margin-left: 28vw;
+  padding-left: 30px;
+  border-bottom-left-radius: 5px;
+}
+
+#jumbotron h1 {
+  text-shadow: black 3px 3px;
+  padding-top: 28vh;
+}
+
+#jumbotron p {
+  text-shadow: black 2px 2px;
+}
+
+#wrap1 {
+  padding-left: 2%;
+  display: flex;
+  align-content: center;
+  justify-content: left;
+}
+
+#button1 {
+  margin-left: 70vw;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+}
+
+.row {
+  text-align: center;
+}
+
+hr {
+  border: 3px solid ;
+}

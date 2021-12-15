@@ -1,0 +1,14 @@
+wrapper{
+    width: 80%;
+
+    margin-left: auto;
+    margin--right: auto;
+    or
+    margin: 0 auto;
+}
+
+margin and padding recommendation: ems or rems
+border-width: px
+box-size: border-box;
+
+VP: viewport height

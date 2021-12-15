@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Shadows+Into+Light&display=swap');
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+#name {
+  font-family: 'Permanent Marker', cursive;
+}
+
+body {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.link-secondary {
+  font-family: 'Permanent Marker', cursive;
+  font-size: x-large;
+  background-color: rgb(0, 110, 255);
+  color:  white;
+  white-space: nowrap;
+  border-radius: 0px;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+#nameH {
+  white-space: nowrap;
+  font-size: 70px;
+}
+
+hr {
+  border-top: 10px solid;
+  margin: 0;
+}
+
+.row {
+  text-align: center;
+}
+
+#jumbotron {
+  background-image: url(images/banner.jpg);
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 80%;
+  margin: 0;
+  justify-content: space-evenly;
+}
+
+#jumbotron2 {
+  background-image: url(images/banner2.png);
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 80%;
+  margin-right: 0;
+}
+
+#jumbotron3 {
+  background-image: url(images/zSun.png);
+  height: 450px;
+  width: 80%;
+  background-position: top;
+  margin-left: 0;
+}
+
+#jumbotron4 {
+  background-image: url(images/barrier.png);
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 80%;
+  background-position: center 20%;
+}
+
+#wrap1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#wrap2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#wrap3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#wrap4 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#wrap5 {
+  display: flex;
+  font-size: 100px;
+}
+
+#wrap6 {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+#wrap6 p {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+
+#wrap6 p:hover {
+  color: rgb(49, 114, 255);
+}
+
+.card {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-text {
+  color: gray;
+  margin: 0;
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+a:hover, a:link, a:active {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+.link-secondary:focus {
+  color: black;
+}
+
+.explain {
+  margin-top: 2.75em;
+  margin-right: 1.25em;
+  font-size: 30px;
+}
+
+#headshotNB {
+  width: 900px;
+  height: 770px;
+}
+
+.web {
+  font-size: 90px;
+  text-decoration: underline;
+}
+
+#c {
+  display: flex;
+  flex-direction: column;
+  background-color: hotpink;
+  padding: 50px;
+}
+
+#c2 {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-color: rgb(221, 49, 49);
+}
+
+#c a {
+  color: white;
+}
+
+#graphic2 {
+  display: flex;
+  
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+  justify-content: center;
+}
+
+#graphic2:hover {
+  color: rgb(0, 119, 255);
+}
+
+#graphic2 h1 {
+  font-size: 75px;
+  background-color: rgb(106, 218, 15);
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-bottom: .2em;
+}
+
+@media screen and (max-width: 1650px) {
+
+  #nameH {
+    font-size: 30px;
+  }
+
+  #jumbotron {
+    height: 450px;
+  }
+
+  .link-secondary {
+    font-size: medium;
+    width: 70%;
+  }
+
+}
+
+@media screen and (max-width: 1450px) {
+
+  #nameH {
+    font-size: 30px;
+  }
+
+  #wrap5 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+  
+  .link-secondary {
+    margin: 2px!important;
+    padding-right: 40%;
+    padding-left: 40%;
+  }
+
+  #nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #nav3 {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  #nav2 {
+    order: -1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #nav1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  #nameH {
+    font-size: large;
+  }
+
+  #bigWrap {  
+    display: flex;
+    flex-direction: column;
+  }
+
+  #header {
+    order: 1;
+  }
+
+  #jumbotron { 
+    display: flex;
+    background-image: none;
+    height: 0;
+    width: 100%;
+    padding: 0;
+  }
+
+  #jumbotron2 { 
+    display: flex;
+    width: 100%;
+    background-image: none;
+    height: 0;
+  }
+
+  #jumbotron3 { 
+    display: flex;
+    width: 100%;
+    background-image: none;
+    height: 0;
+  }
+
+  #jumbotron4 { 
+    display: flex;
+    width: 100%;
+    background-image: none;
+    height: 0;
+  }
+
+  #wrap1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #wrap2 {
+    flex-direction: column;
+    align-items: center;
+    margin: none;
+  }
+
+  #wrap3 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #wrap4 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  *, ::after, ::before {
+    box-sizing:content-box;
+
+  
+}
+
+}

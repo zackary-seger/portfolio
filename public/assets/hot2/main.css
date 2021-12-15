@@ -1,0 +1,60 @@
+header {
+  background-color: rgb(184, 134, 134);
+  color: black;
+  font-size: x-large;
+}
+
+header a {
+  color: black;
+}
+
+#Jumbotron {
+  background-image: url("marlin.jpg");
+  color: white;
+  width: 100%;
+  height: 20vh;
+}
+
+a {
+  color: white;
+}
+
+#menu {
+  background-color: wheat;
+  color: darkgreen;
+}
+
+#menu a {
+  color: darkgreen;
+}
+
+#wings {
+  background-color: lightblue;
+}
+
+#shrimp {
+  background-color: lightgray;
+}
+
+#bites{
+  background-color: lightpink;
+}
+
+#chicken {
+  background-color: lightsteelblue;
+}
+
+#beef {
+  background-color: lightyellow;
+}
+
+#map {
+  background-color:lightskyblue;
+  color: darkgreen;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(42, 42, 85);
+  color: white;
+}

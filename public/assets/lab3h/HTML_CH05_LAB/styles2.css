@@ -1,0 +1,29 @@
+* {
+  color: red;
+}
+
+main {
+  background-color: rgb(255, 255, 255);
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: fantasy;
+}
+
+#intro {
+  font-size: x-small;
+  font-family: monospace;
+}
+
+.headings {
+  color: rgb(0, 136, 255);
+  text-shadow: 1px 1px black;
+  font-family: cursive;
+}
+
+main p {
+  color: black;
+}
+
+h1 {
+  font-family: serif;
+}

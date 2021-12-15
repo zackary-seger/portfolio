@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+#wrap1 {
+  padding-left: 2%;
+  display: flex;
+  align-content: center;
+  justify-content: left;
+}
+
+#name {
+  padding-left: 1.75%;
+  padding-top: 1%;
+}
+
+.row {
+  text-align: center;
+}
+
+.card-img-top {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+}
+
+footer {
+  margin-top: 20px;
+}
